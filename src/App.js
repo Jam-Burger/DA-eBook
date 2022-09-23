@@ -1,9 +1,7 @@
-import {Button, Collapse} from 'react-bootstrap'
+import { Button, Collapse } from 'react-bootstrap'
 function NavBar() {
     return (
-        <Button>
-            Hello
-        </Button>
+        <img src='logo.png' width={100} height={100} />
     );
 }
 function App() {
@@ -11,5 +9,4 @@ function App() {
         <NavBar />
     );
 }
-// class 
 export default App;
