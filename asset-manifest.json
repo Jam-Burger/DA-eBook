@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/DA-eBook/static/css/main.eb6a5e04.css",
-    "main.js": "/DA-eBook/static/js/main.cc3b1d83.js",
+    "main.css": "/DA-eBook/static/css/main.8787e421.css",
+    "main.js": "/DA-eBook/static/js/main.ffddeaf8.js",
+    "static/media/logo.png": "/DA-eBook/static/media/logo.99b86a5d97716d7fc7f3.png",
     "index.html": "/DA-eBook/index.html",
-    "main.eb6a5e04.css.map": "/DA-eBook/static/css/main.eb6a5e04.css.map",
-    "main.cc3b1d83.js.map": "/DA-eBook/static/js/main.cc3b1d83.js.map"
+    "main.8787e421.css.map": "/DA-eBook/static/css/main.8787e421.css.map",
+    "main.ffddeaf8.js.map": "/DA-eBook/static/js/main.ffddeaf8.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb6a5e04.css",
-    "static/js/main.cc3b1d83.js"
+    "static/css/main.8787e421.css",
+    "static/js/main.ffddeaf8.js"
   ]
 }
