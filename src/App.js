@@ -1,19 +1,18 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
-import { Button, Sidebar } from './components';
-import { Home, Academics, Calender, Semesters, Exams, Events } from './pages';
+import {Button, Sidebar} from './components';
+import { Home, Academics, Calender, Semesters, Exams, Events, Lectures } from './pages';
 
 import './App.css';
-import { ContextProvider } from './contexts/ContextProvider';
 
 const App = () => {
     const activeManu = true;
     return (
         <div>
-            <BrowserRouter>
+            <HashRouter>
                 <div className="flex relative dark:bg-main-dark-bg">
                     {activeManu ? (
                         <div className='w-72 fixed sidebar dark:bg-secondary-dark-bg bg-white'>
@@ -33,13 +32,15 @@ const App = () => {
                                 <Route path='/' element={<Home />} />
                                 <Route path='/Home' element={<Home />} />
                                 <Route path='/Academics' element={<Academics />} />
+                                <Route path='/Academics/lectures' element={<Lectures />} />
+                                <Route path='/Academics/exams' element={<Exams />} />
                                 <Route path='/Calender' element={<Calender />} />
                                 <Route path='/Events' element={<Events />} />
                             </Routes>
                         </div>
                     </div>
                 </div>
-            </BrowserRouter >
+            </HashRouter >
         </div>
     );
 }

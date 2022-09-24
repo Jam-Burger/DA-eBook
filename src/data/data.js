@@ -16,3 +16,21 @@ export const courses = [
     { id: "IT227", instructors: ["Amit Mankodi"] },
     { id: "SC223", instructors: ["Aditya Tatu", "Rahul Muthu"] }
 ];
+export const links = [
+    {
+        name: "Home",
+        path: "/Home"
+    },
+    {
+        name: "Academics",
+        path: "/Academics"
+    },
+    {
+        name: "Events",
+        path: "/Events"
+    },
+    {
+        name: "Calender",
+        path: "/Calender"
+    }
+]
