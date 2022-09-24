@@ -1,29 +1,58 @@
 export const courses = [
     [
-    { id: "EL111", name: "Basic Electronic Circuits", instructors: ["Ahlad Kumar", "Srimant Mandal"], slides:23 },
-    { id: "EL103", name: "Basic Electronic Circuits Lab", instructors: ["Kunal Patel"], slides: 0 },
-    { id: "IC101", name: "Introduction to ICT", instructors: ["Anil Roy"], slides: 4 },
-    { id: "IT112", name: "Introduction to Programming", instructors: ["Bakul Goyal", "Manish Khare"], slides: 17},
-    { id: "IT113", name: "Introduction to Programming Lab", instructors: ["Bakul Goyal", "Manish Khare"], slides: 0 },
-    { id: "SC107", name: "Calculus", instructors: ["Nabin Sahu"], slides: 28 },
-    { id: "PC110", name: "Language and Literature", instructors: ["Sweta Garg"], slides: 14 }
+        { id: "EL111", name: "Basic Electronic Circuits", instructors: ["Ahlad Kumar", "Srimant Mandal"], slides: 23 },
+        { id: "EL103", name: "Basic Electronic Circuits Lab", instructors: ["Kunal Patel"], slides: 0 },
+        { id: "IC101", name: "Introduction to ICT", instructors: ["Anil Roy"], slides: 4 },
+        { id: "IT112", name: "Introduction to Programming", instructors: ["Bakul Goyal", "Manish Khare"], slides: 17 },
+        { id: "IT113", name: "Introduction to Programming Lab", instructors: ["Bakul Goyal", "Manish Khare"], slides: 0 },
+        { id: "SC107", name: "Calculus", instructors: ["Nabin Sahu"], slides: 28 },
+        { id: "PC110", name: "Language and Literature", instructors: ["Sweta Garg"], slides: 14 }
     ],
     [
-    { id: "HM106", name: "Approaches to Indian Society", instructors: ["Bharani Kolipara"], slides: 5 },
-    { id: "IC121", name: "Digital Logic and Computer Organization", instructors: ["Sreeja Rajendran", "Ayan Palchaudhuri"], slides: 13 },
-    { id: "IT205", name: "Data Structures", instructors: ["Sunitha V", "Priyanka Singh"], slides: 23 },
-    { id: "IT206", name: "Data Structure Lab using OOP", instructors: ["Rachit Chhaya"], slides: 6 },
-    { id: "SC205", name: "Discrete Mathematics", instructors: ["Manish Gupta"], slides: 13 },
-    { id: "SC217", name: "Electromagnetic Theory", instructors: ["Gautam Dutta"], slides: 18 }
+        { id: "HM106", name: "Approaches to Indian Society", instructors: ["Bharani Kolipara"], slides: 5 },
+        { id: "IC121", name: "Digital Logic and Computer Organization", instructors: ["Sreeja Rajendran", "Ayan Palchaudhuri"], slides: 13 },
+        { id: "IT205", name: "Data Structures", instructors: ["Sunitha V", "Priyanka Singh"], slides: 23 },
+        { id: "IT206", name: "Data Structure Lab using OOP", instructors: ["Rachit Chhaya"], slides: 6 },
+        { id: "SC205", name: "Discrete Mathematics", instructors: ["Manish Gupta"], slides: 13 },
+        { id: "SC217", name: "Electromagnetic Theory", instructors: ["Gautam Dutta"], slides: 18 }
     ],
     [
-    { id: "CT203", name: "Signals and Systems", instructors: ["Rajib Lochan Das"], slides: 2 },
-    { id: "HM216", name: "Science, Technology and Society", instructors: ["Shefali Jha"], slides: 4 },
-    { id: "IT216", name: "Design and Analysis of Algorithms", instructors: ["Punit Bhateja, Supantha Pandit"], slides: 22 },
-    { id: "IT227", name: "Computer Systems Programming", instructors: ["Amit Mankodi"], slides: 10 },
-    { id: "SC223", name: "Linear Algebra", instructors: ["Aditya Tatu", "Rahul Muthu"], slides: 14 }
+        { id: "CT203", name: "Signals and Systems", instructors: ["Rajib Lochan Das"], slides: 2 },
+        { id: "HM216", name: "Science, Technology and Society", instructors: ["Shefali Jha"], slides: 4 },
+        { id: "IT216", name: "Design and Analysis of Algorithms", instructors: ["Punit Bhateja, Supantha Pandit"], slides: 22 },
+        { id: "IT227", name: "Computer Systems Programming", instructors: ["Amit Mankodi"], slides: 10 },
+        { id: "SC223", name: "Linear Algebra", instructors: ["Aditya Tatu", "Rahul Muthu"], slides: 14 }
     ]
 ];
+
+export const exams = [
+    [   // Sem1
+        "IC101 QP-Midsem-3Jan2022", "IT105 2020 pyq End sem paper", "IT105 First In-Sem Paper-Solution", "PC110 Midsem_2020", "SC107 Mid Semester A", "SC107 Mid Semester B", "SC107 Mid Semester C"
+    ],
+    [   // Sem2
+        "ENDSEM_IT205_datastructures"
+        , "IC121 PRACTICE QUESTIONS 1", "IC121 PRACTICE QUESTIONS 1 answer key"
+        , "IC121 PRACTICE QUESTIONS 2", "IC121 PRACTICE QUESTIONS 2 answer key"
+        , "IC121 PRACTICE QUESTIONS 3", "IC121 PRACTICE QUESTIONS 3 answer key"
+        , "IC121 PRACTICE QUESTIONS 4", "IC121 PRACTICE QUESTIONS 4 answer key"
+        , "IC121 PRACTICE QUESTIONS 5", "IC121 PRACTICE QUESTIONS 5 answer key"
+        , "IC121 PRACTICE QUESTIONS 6", "IC121 PRACTICE QUESTIONS 6 answer key"
+        , "MT1_IT205_datastructures", "MT2_IT205_datastructures"
+        , "SC217 Endsem", "SC217 Midsem1", "SC217 Midsem2"
+    ],
+    [   //Sem3
+        "SC223 MT1_Autum2018", "SC223 MT1_Autumn2018Solns"
+    ]
+]
+
+export const gallery = [
+    { id: "Ganesh Chaturthi 2022", size: 6 },
+    { id: "Janmashtami 2022", size: 7 },
+    { id: "PMMC Club Clicks 2022", size: 6 },
+    { id: "Synapse 2022", size: 9 },
+    { id: "Teacher's Day 2022", size: 7 }
+]
+
 export const links = [
     {
         name: "Home",
