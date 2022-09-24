@@ -1,40 +1,4 @@
-// Jay Malaviya
-// Jenil Patel
-export const courses = [
-    { id: "EL111", instructors: ["Ahlad Kumar", "Srimant Mandal"] },
-    { id: "IC101", instructors: ["Anil Roy"] },
-    { id: "IT112", instructors: ["Bakul Goyal", "Manish Khare"] },
-    { id: "PC110", instructors: ["Sweta Garg"] },
-    { id: "SC107", instructors: ["Nabin Sahu"] },
-    { id: "HM106", instructors: ["Bharani Kolipara"] },
-    { id: "IC121", instructors: ["Sreeja Rajendran", "Ayan Palchaudhuri"] },
-    { id: "IT205", instructors: ["Sunitha V", "Priyanka Singh"] },
-    { id: "IT206", instructors: ["Rachit Chhaya"] },
-    { id: "SC205", instructors: ["Manish Gupta"] },
-    { id: "SC217", instructors: ["Gautam Dutta"] },
-    { id: "CT203", instructors: ["Rajib Lochan Das"] },
-    { id: "HM216", instructors: ["Shefali Jha"] },
-    { id: "IT216", instructors: ["Punit Bhateja, Supantha Pandit"] },
-    { id: "IT227", instructors: ["Amit Mankodi"] },
-    { id: "SC223", instructors: ["Aditya Tatu", "Rahul Muthu"] }
-];
-export const links = [
-    {
-        name: "Home",
-        path: "/Home"
-    },
-    {
-        name: "Academics",
-        path: "/Academics"
-    },
-    {
-        name: "Events",
-        path: "/Events"
-    },
-    {
-        name: "Calender",
-        path: "/Calender"
-    }
+export const cources = [
     { id: "EL111", name: "Basic Electronic Circuits", instructors: ["Ahlad Kumar", "Srimant Mandal"] },
     { id: "EL103", name: "Basic Electronic Circuits Lab", instructors: ["Kunal Patel"] },
     { id: "IC101", name: "Introduction to ICT", instructors: ["Anil Roy"] },
@@ -54,7 +18,24 @@ export const links = [
     { id: "IT227", name: "Computer Systems Programming", instructors: ["Amit Mankodi"] },
     { id: "SC223", name: "Linear Algebra", instructors: ["Aditya Tatu", "Rahul Muthu"] }
 ];
-
+export const links = [
+    {
+        name: "Home",
+        path: "/Home"
+    },
+    {
+        name: "Academics",
+        path: "/Academics"
+    },
+    {
+        name: "Events",
+        path: "/Events"
+    },
+    {
+        name: "Calender",
+        path: "/Calender"
+    }
+];
 // Holidays 2022
 export const holidays = [
     {
@@ -416,5 +397,4 @@ export const timetable = [
             ]
         }
     ]
->>>>>>> ea534989b341b75024719b449495ed4133f2a007
 ]
