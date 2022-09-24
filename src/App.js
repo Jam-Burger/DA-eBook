@@ -1,11 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import { FiSettings } from 'react-icons/fi';
-import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
-import {Button, Sidebar} from './components';
-import { Home, Academics, Calender, Semesters, Exams, Events, Lectures } from './pages';
-
+import { Sidebar } from './components';
+import { Home, Academics, Calender, Exams, Events, Lectures, Courses, Slides } from './pages';
+import { courses } from './data/data';
 import './App.css';
 
 const App = () => {
@@ -36,6 +34,19 @@ const App = () => {
                                 <Route path='/Academics/exams' element={<Exams />} />
                                 <Route path='/Calender' element={<Calender />} />
                                 <Route path='/Events' element={<Events />} />
+
+                                {courses.map((sem, i) => {
+                                    return <Route path={`/Academics/lectures/semester${i + 1}`} element={<Courses sem={i + 1} />} />
+                                })}
+                                {courses.map((sem, i) => {
+                                    return (
+                                        sem.map((course) => {
+                                            return (
+                                                <Route path={`/Academics/lectures/semester${i + 1}/slides`} element={<Slides sem={i + 1} course={course.id} />} />
+                                            )
+                                        })
+                                    )
+                                })}
                             </Routes>
                         </div>
                     </div>

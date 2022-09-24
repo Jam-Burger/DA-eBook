@@ -1,22 +1,28 @@
-export const cources = [
-    { id: "EL111", name: "Basic Electronic Circuits", instructors: ["Ahlad Kumar", "Srimant Mandal"] },
+export const courses = [
+    [
+    { id: "EL111", name: "Basic Electronic Circuits", instructors: ["Ahlad Kumar", "Srimant Mandal"], slides:23 },
     { id: "EL103", name: "Basic Electronic Circuits Lab", instructors: ["Kunal Patel"] },
     { id: "IC101", name: "Introduction to ICT", instructors: ["Anil Roy"] },
     { id: "IT112", name: "Introduction to Programming", instructors: ["Bakul Goyal", "Manish Khare"] },
     { id: "IT113", name: "Introduction to Programming Lab", instructors: ["Bakul Goyal", "Manish Khare"] },
-    { id: "PC110", name: "Language and Literature", instructors: ["Sweta Garg"] },
     { id: "SC107", name: "Calculus", instructors: ["Nabin Sahu"] },
+    { id: "PC110", name: "Language and Literature", instructors: ["Sweta Garg"] }
+    ],
+    [
     { id: "HM106", name: "Approaches to Indian Society", instructors: ["Bharani Kolipara"] },
     { id: "IC121", name: "Digital Logic and Computer Organization", instructors: ["Sreeja Rajendran", "Ayan Palchaudhuri"] },
     { id: "IT205", name: "Data Structures", instructors: ["Sunitha V", "Priyanka Singh"] },
     { id: "IT206", name: "Data Structure Lab using OOP", instructors: ["Rachit Chhaya"] },
     { id: "SC205", name: "Discrete Mathematics", instructors: ["Manish Gupta"] },
-    { id: "SC217", name: "Electromagnetic Theory", instructors: ["Gautam Dutta"] },
+    { id: "SC217", name: "Electromagnetic Theory", instructors: ["Gautam Dutta"] }
+    ],
+    [
     { id: "CT203", name: "Signals and Systems", instructors: ["Rajib Lochan Das"] },
     { id: "HM216", name: "Science, Technology and Society", instructors: ["Shefali Jha"] },
     { id: "IT216", name: "Design and Analysis of Algorithms", instructors: ["Punit Bhateja, Supantha Pandit"] },
     { id: "IT227", name: "Computer Systems Programming", instructors: ["Amit Mankodi"] },
     { id: "SC223", name: "Linear Algebra", instructors: ["Aditya Tatu", "Rahul Muthu"] }
+    ]
 ];
 export const links = [
     {
@@ -183,7 +189,7 @@ export const timetable = [
                 }]
         },
         {
-            dya: "Friday",
+            day: "Friday",
             timeline: [
                 {
                     startTime: "10:15",

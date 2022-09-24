@@ -1,7 +1,5 @@
 import React from 'react'
 import { DirButton } from '../components';
-import Exams from './Exams';
-import Lectures from './Lectures';
 
 const Academics = () => {
   return (

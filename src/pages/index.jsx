@@ -4,3 +4,5 @@ export { default as Calender } from './Calender';
 export { default as Events } from './Events';
 export { default as Home } from './Home';
 export { default as Lectures } from './Lectures';
+export { default as Courses } from './Courses';
+export { default as Slides } from './Slides';
