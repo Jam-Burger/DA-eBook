@@ -1,5 +1,6 @@
 import React from 'react'
 import { File, Header } from '../components'
+import bg from '../backgrounds/3.PNG'
 
 const Slides = (props) => {
     // const mainpath= "..";
@@ -10,9 +11,11 @@ const Slides = (props) => {
         files.push(<File title={`Lecture - ${i + 1}`} path={`${path}/${props.course.id} Lec (${i + 1}).pdf`} />)
     }
     return (
-        <div>
+        <div className='h-full pb-20'>
             <Header title={props.course.id} />
-            {files.length === 0 ? <div>No files</div> : <div>{files}</div>}
+            <div className='h-full' style={{ backgroundImage: `url(${bg})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: '50%' }} >
+                {files.length === 0 ? "No files" : files}
+            </div>
         </div>
     )
 }

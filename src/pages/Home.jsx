@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className='h-full pb-20'>
       <Header title='Home' />
-      <p className='h-full' style={{ backgroundImage: `url(${bg})`, backgroundRepeat: 'no-repeat', backgroundPosition:'center', backgroundSize:'50%'}} />
+      <p className='h-full' style={{ backgroundImage: `url(${bg})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: '50%' }} />
     </div>
   )
 }
