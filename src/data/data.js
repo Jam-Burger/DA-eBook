@@ -46,11 +46,11 @@ export const exams = [
 ]
 
 export const gallery = [
-    { id: "Ganesh Chaturthi 2022", size: 6 },
-    { id: "Janmashtami 2022", size: 7 },
-    { id: "PMMC Club Clicks 2022", size: 6 },
-    { id: "Synapse 2022", size: 9 },
-    { id: "Teacher's Day 2022", size: 7 }
+    { name: "Ganesh Chaturthi 2022", size: 6 },
+    { name: "Janmashtami 2022", size: 7 },
+    { name: "PMMC Club Clicks 2022", size: 6 },
+    { name: "Synapse 2022", size: 7 },
+    { name: "Teacher's Day 2022", size: 7 }
 ]
 
 export const links = [

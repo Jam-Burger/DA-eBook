@@ -2,8 +2,8 @@ import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import { Sidebar } from './components';
-import { Home, Academics, Calender, Exams, Events, Lectures, Courses, Slides } from './pages';
-import { courses } from './data/data';
+import { Home, Academics, Calender, Exams, Events, Lectures, Courses, Slides, ExamMaterials, Gallery, Images } from './pages';
+import { courses, gallery } from './data/data';
 import './App.css';
 
 const App = () => {
@@ -25,7 +25,7 @@ const App = () => {
                         `dark:bg-secondary-dark-bg bg-main-bg min-h-screen w-full
                     ${activeManu ? 'md:ml-72 ' : 'flex-2'}`
                     }>
-                        <div>
+                        <div className='bg-gray-200 h-full p-10'>
                             <Routes>
                                 <Route path='/' element={<Home />} />
                                 <Route path='/Home' element={<Home />} />
@@ -34,19 +34,26 @@ const App = () => {
                                 <Route path='/Academics/exams' element={<Exams />} />
                                 <Route path='/Calender' element={<Calender />} />
                                 <Route path='/Events' element={<Events />} />
+                                <Route path='/Events/gallery' element={<Gallery />} />
 
                                 {courses.map((sem, i) => {
-                                    return <Route path={`/Academics/lectures/semester${i + 1}`} element={<Courses sem={i + 1} />} />
-                                })}
-                                {courses.map((sem, i) => {
-                                    return (
-                                        sem.map((course) => {
+                                    return <>
+                                        <Route path={`/Academics/lectures/semester${i + 1}`} element={<Courses sem={i + 1} />} />
+                                        {sem.map((course) => {
                                             return (
-                                                <Route path={`/Academics/lectures/semester${i + 1}/slides`} element={<Slides sem={i + 1} course={course.id} />} />
+                                                <Route path={`/Academics/lectures/semester${i + 1}/${course.id}`} element={<Slides sem={i + 1} course={course} />} />
                                             )
-                                        })
-                                    )
+                                        })}
+                                    </>
                                 })}
+
+                                {courses.map((sem, i) => (
+                                    <Route path={`/Academics/exams/semester${i + 1}`} element={<ExamMaterials sem={i + 1} />} />
+                                ))}
+
+                                {gallery.map((event, i) => (
+                                    <Route path={`/Events/gallery/event${i + 1}`} element={<Images event={event} />} />
+                                ))}
                             </Routes>
                         </div>
                     </div>

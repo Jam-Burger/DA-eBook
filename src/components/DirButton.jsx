@@ -7,7 +7,7 @@ function DirButton(props) {
     <div>
       {show && (<>
         <Link to={props.page} onClick={() => { }}>
-          <div className='m-4 center bg-gray-50'>
+          <div className='p-4 mt-2 center bg-gray-50 rounded-xl'>
             {props.name}
           </div>
         </Link>

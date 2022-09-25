@@ -6,3 +6,6 @@ export { default as Home } from './Home';
 export { default as Lectures } from './Lectures';
 export { default as Courses } from './Courses';
 export { default as Slides } from './Slides';
+export { default as ExamMaterials } from './ExamMaterials';
+export { default as Gallery } from './Gallery';
+export { default as Images } from './Images';
