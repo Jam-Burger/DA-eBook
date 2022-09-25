@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/DA-eBook/static/css/main.f0db9404.css",
-    "main.js": "/DA-eBook/static/js/main.42aa6a3d.js",
-    "static/media/8.PNG": "/DA-eBook/static/media/8.e867e76d4b243e5139d3.PNG",
+    "main.css": "/DA-eBook/static/css/main.2b5f1d8d.css",
+    "main.js": "/DA-eBook/static/js/main.7325bdf0.js",
+    "static/media/4.PNG": "/DA-eBook/static/media/4.d41f442c72f16ecfd410.PNG",
+    "static/media/2.PNG": "/DA-eBook/static/media/2.56165dde8286efd1cd1b.PNG",
+    "static/media/6.PNG": "/DA-eBook/static/media/6.257b679d6869b18c209e.PNG",
+    "static/media/8.PNG": "/DA-eBook/static/media/8.ae407e5746281702b561.PNG",
+    "static/media/3.PNG": "/DA-eBook/static/media/3.808e9e655d6341201d17.PNG",
+    "static/media/5.PNG": "/DA-eBook/static/media/5.a26ae2bef1c19e8c1946.PNG",
+    "static/media/9.PNG": "/DA-eBook/static/media/9.c6132b077efafdd9408b.PNG",
     "index.html": "/DA-eBook/index.html",
-    "main.f0db9404.css.map": "/DA-eBook/static/css/main.f0db9404.css.map",
-    "main.42aa6a3d.js.map": "/DA-eBook/static/js/main.42aa6a3d.js.map"
+    "main.2b5f1d8d.css.map": "/DA-eBook/static/css/main.2b5f1d8d.css.map",
+    "main.7325bdf0.js.map": "/DA-eBook/static/js/main.7325bdf0.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0db9404.css",
-    "static/js/main.42aa6a3d.js"
+    "static/css/main.2b5f1d8d.css",
+    "static/js/main.7325bdf0.js"
   ]
 }
